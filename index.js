@@ -5,7 +5,7 @@ const app = express();
 const authRoutes = require('./Routes/authRoutes')
 
 mongoose
-  .connect("mongodb://localhost:27017/booking-system", {
+  .connect("mongodb://localhost:27017/authentication", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
